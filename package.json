@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.1.2",
     "apollo-cache-inmemory": "^1.6.5",
     "apollo-client": "^2.6.8",
+    "graphql-tag": "^2.10.3",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0"
