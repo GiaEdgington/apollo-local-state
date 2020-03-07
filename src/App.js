@@ -6,8 +6,11 @@ import { InMemoryCache } from 'apollo-cache-inmemory';
 
 const client = new ApolloClient({
   cache: new InMemoryCache({
-
-  })
+    freezeResults: true
+  }),
+  typeDefs,
+  resolvers,
+  assumeImmutableResults: true
 })
 function App() {
   return (
